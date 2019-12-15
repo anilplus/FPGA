@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/user/asyn/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/user/asyn/xst"
+elaborate
+-ifn asyn.prj
+-ifmt mixed

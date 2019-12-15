@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="asyn.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="asyn.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="asyn.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="asyn.xst"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1568092804" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1568092804">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1568092804" xil_pn:in_ck="4287375404203" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1568092804">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="asyn.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1568092804" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="6256923032888409406" xil_pn:start_ts="1568092804">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1568092804" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="4817200498665008832" xil_pn:start_ts="1568092804">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1568092804" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="5226424633157988038" xil_pn:start_ts="1568092804">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1568092804" xil_pn:in_ck="4287375404203" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1568092804">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="asyn.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1568092814" xil_pn:in_ck="4287375404203" xil_pn:name="TRAN_MSimulateBehavioralModel" xil_pn:prop_ck="1085604711667550006" xil_pn:start_ts="1568092811">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>
